@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import "./fullstack.css"
 
-function fullstack() {
+const Fullstack = ()=>{
   return (
     <div>fullstack</div>
   )
 }
 
-export default fullstack
+export default Fullstack

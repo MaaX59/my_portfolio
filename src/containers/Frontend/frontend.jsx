@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import "./frontend.css"
 
-function frontend() {
+const Frontend = ()=>{
   return (
     <div>frontend</div>
   )
 }
 
-export default frontend
+export default Frontend

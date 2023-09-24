@@ -1,8 +1,14 @@
+import {
+  Navbar,
+  Header,
+  Frontend,
+  Fullstack,
+  Contact,
+  Footer
+} from "./containers";
+import "./App.css";
 
-import {Navbar, Header, Frontend, Fullstack, Contact, Footer } from './containers';
-import './App.css';
-
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navbar />
@@ -12,11 +18,8 @@ function App() {
       <Contact />
       <Navbar />
       <Footer />
-
-
-
     </div>
   );
-}
+};
 
 export default App;
