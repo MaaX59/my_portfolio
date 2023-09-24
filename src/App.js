@@ -3,6 +3,7 @@ import {
   Header,
   Frontend,
   Fullstack,
+  Tech,
   Contact,
   Footer
 } from "./containers";
@@ -15,8 +16,8 @@ const App = () => {
       <Header />
       <Frontend />
       <Fullstack />
+      <Tech />
       <Contact />
-      <Navbar />
       <Footer />
     </div>
   );
