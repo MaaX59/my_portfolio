@@ -1,21 +1,31 @@
 .app__navbar {
-    width: 100%;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+  background: rgb(13, 1, 37);
+  text-align: center;
+  color: whitesmoke;
+  position: relative;
+  font-family:sans-serif;
+}
+.app__navbar-title{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 1rem;
-    background: rgb(19, 2, 53);
-    text-align: center;
-    color:whitesmoke;
-    position: relative;
-}
-.app__navbar-links{
-    display: flex;
-    
     align-items: center;
+    margin: 1rem;
 }
-.app__navbar-links h1{
-    font-size: 27px;
-    margin-left: 1rem;
-    
+.app__navbar-title svg{
+    margin: 8px;
+}
+
+.app__navbar-links {
+  display: flex;
+  align-items: center;
+}
+.app__navbar-links h1 {
+  font-size: 27px;
+  margin-left: 1rem;
 }
