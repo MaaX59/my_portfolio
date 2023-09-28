@@ -26,9 +26,16 @@ const Navbar = () => {
         
         
       </div>
+
+
       <div className="app__navbar-contact">
-        <a href="#contact">Contact</a>
+      <div className="app__navbar-contact-content">
+        <h3>contact</h3>
+        {/* https://codepen.io/dig-lopes/pen/WLVGda  use this with github linked in and */}
       </div>
+      </div>
+
+
       </div>
     </div>
   );
