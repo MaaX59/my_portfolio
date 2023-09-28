@@ -1,6 +1,6 @@
 .app__navbar {
   width: 100%;
-  height: 75px;
+  height: 67px;
   display: flex;
   flex-direction: row;
 
@@ -11,6 +11,7 @@
 }
 .app__navbar-content {
   display: flex;
+  position: relative;
   justify-content: space-between;
   width: 100%;
   margin: 0 3rem;
@@ -30,7 +31,7 @@
     transform: rotate(0deg) scale(1);
   }
   50% {
-    transform: rotate(180deg) scale(0.7);
+    transform: rotate(180deg) scale(0.85);
   }
   100% {
     transform: rotate(360deg) scale(1);
@@ -126,8 +127,8 @@
   transition: 0.5s;
 }
 .app__navbar-contact svg::before {
-  content: "";
-  position: absolute;
+  
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
