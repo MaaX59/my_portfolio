@@ -8,7 +8,6 @@
   text-align: center;
   color: rgb(181, 181, 214);
   position: relative;
-  
 }
 .app__navbar-content {
   display: flex;
@@ -24,14 +23,14 @@
 }
 .app__navbar-title svg {
   margin: 8px;
-  animation: rotate 4s infinite;
+  animation: rotate 6s infinite linear;
 }
 @keyframes rotate {
   0% {
     transform: rotate(0deg) scale(1);
   }
   50% {
-    transform: rotate(180deg) scale(0.75);
+    transform: rotate(180deg) scale(0.7);
   }
   100% {
     transform: rotate(360deg) scale(1);
@@ -111,8 +110,41 @@
 .app__navbar-contact {
   display: flex;
   align-items: center;
-  font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
+}
+.app__navbar-contact svg {
+  margin: 1rem;
+  position: relative;
+  display: block;
+  width: 25px;
+  height: 25px;
+
+  background: rgb(16, 1, 46);
+
+  border-radius: 50%;
+  font-size: 30px;
+  color: #666;
+  transition: 0.5s;
+}
+.app__navbar-contact svg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ffee10;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+.app__navbar-contact svg:hover::before {
+  transform: scale(1);
+  box-shadow: 0 0 25px #ffee10;
 }
 
-
+.app__navbar-contact svg:hover {
+  color: #ffee10;
+  box-shadow: 0 0 12px #ffee10;
+  transform: scale(1.1);
+}
