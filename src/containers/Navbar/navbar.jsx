@@ -10,10 +10,23 @@ const Navbar = () => {
         <h1>Max Strandberg</h1>
       </div>
       <div className="app__navbar-links">
-        <h1>Frontend</h1>
-        <h1>Fullstack</h1>
-        <h1>Technologies</h1>
-        <h1>Contact</h1>
+      <ul>
+        <li>
+          <a href="#frontend">Frontend</a>
+        </li>
+        <li>
+          <a href="#fullstack">Fullstack</a>
+        </li>
+        <li>
+          <a href="#technologies">Technologies</a>
+        </li>
+        
+      </ul>
+        
+        
+      </div>
+      <div className="app__navbar-contact">
+        <a href="#contact">Contact</a>
       </div>
     </div>
   );

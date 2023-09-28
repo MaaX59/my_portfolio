@@ -3,29 +3,75 @@
   height: 75px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 1rem;
-  background: rgb(13, 1, 37);
+  justify-content: space-between;
+  
+  background: rgb(16, 1, 46);
   text-align: center;
   color: whitesmoke;
   position: relative;
-  font-family:sans-serif;
+  
 }
 .app__navbar-title{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 1rem;
+    font-size: 13px;
+    margin-left:  2rem;
 }
 .app__navbar-title svg{
     margin: 8px;
+    animation: rotate 4s infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) scale(1)
+    
+  }
+  50% {
+    transform: rotate(180deg) scale(0.75);
+  }
+  100% {
+    transform: rotate(360deg) scale(1)
+  }
 }
 
 .app__navbar-links {
   display: flex;
   align-items: center;
+  margin-right: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(176, 176, 202);
+  text-decoration: none;
 }
-.app__navbar-links h1 {
+.app__navbar-links ul{
+  display: flex;
+
+}
+
+.app__navbar-links li {
+  
+  text-decoration: none;
+  list-style: none;
   font-size: 20px;
   margin-left: 2rem;
+}
+.app__navbar-links li a{
+  color:rgb(45, 45, 226) ;
+  text-decoration: none;
+}
+.app__navbar-links li a:visited{
+  text-decoration: none;
+}
+
+.app__navbar-links li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color: #3DA35D;
+  transition: 0.2s ease-in-out;
+  
+}
+.app__navbar-contact{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
