@@ -5,6 +5,7 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <div className="app__navbar">
+    <div className="app__navbar-content">
       <div className="app__navbar-title">
         <FaConnectdevelop size={30}/>
         <h1>Max Strandberg</h1>
@@ -27,6 +28,7 @@ const Navbar = () => {
       </div>
       <div className="app__navbar-contact">
         <a href="#contact">Contact</a>
+      </div>
       </div>
     </div>
   );

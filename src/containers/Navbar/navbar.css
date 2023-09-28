@@ -3,7 +3,7 @@
   height: 75px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  
   
   background: rgb(16, 1, 46);
   text-align: center;
@@ -11,12 +11,18 @@
   position: relative;
   
 }
+.app__navbar-content{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 3rem;
+}
 .app__navbar-title{
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 13px;
-    margin-left:  2rem;
+   
 }
 .app__navbar-title svg{
     margin: 8px;
@@ -40,13 +46,15 @@
   align-items: center;
   margin-right: 2rem;
   font-family: 'Courier New', Courier, monospace;
-  color: rgb(176, 176, 202);
+  
   text-decoration: none;
 }
 .app__navbar-links ul{
   display: flex;
-
 }
+.app__navbar-links *{
+  box-sizing: border-box;
+  transition: all .35s ease;}
 
 .app__navbar-links li {
   
@@ -55,23 +63,77 @@
   font-size: 20px;
   margin-left: 2rem;
 }
-.app__navbar-links li a{
-  color:rgb(45, 45, 226) ;
+.app__navbar-links a{
+  color:rgb(181, 181, 214) ;
   text-decoration: none;
+  position: relative;
+  padding: .5em .8em;
 }
-.app__navbar-links li a:visited{
+.app__navbar-links a:visited{
   text-decoration: none;
 }
 
-.app__navbar-links li:hover{
+/* .app__navbar-links li:hover{
   text-decoration: underline;
   cursor: pointer;
   color: #3DA35D;
-  transition: 0.2s ease-in-out;
+  transition: 0.4s ease-in-out;
   
+} */
+
+
+.app__navbar-links a::before,
+.app__navbar-links a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
 }
+
+.app__navbar-links a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #3E8914;
+  border-right: 3px solid #2E640F;
+  transform: translate(-100%, 50%);
+}
+
+.app__navbar-links a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #2E640F;
+  border-left: 3px solid #3E8914;
+  transform: translate(100%, -50%)
+}
+
+.app__navbar-links a:hover:before,
+.app__navbar-links a:hover:after{
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.app__navbar-links a:hover {
+  color: #3DA35D;
+}
+
+
+
+
 .app__navbar-contact{
   display: flex;
   align-items: center;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.app__navbar-contact a{
+  text-decoration: none;
+  color:rgb(57, 57, 216) ;
+}
+.app__navbar-contact a:visited{
   text-decoration: none;
 }
