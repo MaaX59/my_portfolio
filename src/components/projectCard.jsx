@@ -21,12 +21,12 @@ const projectCard = ({ project }) => {
         <div className="app__projectCard-links">
           <div className="app__projectCard-links_site">
             <a href={link}>
-              <button>Visit</button>
+              Visit
             </a>
           </div>
           <div className="app__projectCard-links_code">
             <a href={code}>
-              <button>Source</button>
+              Source
             </a>
           </div>
         </div>

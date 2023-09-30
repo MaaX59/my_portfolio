@@ -5,18 +5,24 @@
   position: relative;
   border: none;
   border-radius: 7px;
-  box-shadow: 0px 0px 10px 5px rgba(51, 50, 50, 0.87);
+  box-shadow: 0px 0px 10px 3px rgb(153, 151, 151);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   margin: 1rem 2rem 3rem 2rem;
   color: antiquewhite;
   transition: 0.7s ease-in-out;
 }
+.app__projectCard-constent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .app__projectCard:hover{
     background-color: rgb(11, 1, 40);
     transition: 0.7s ease-in-out;
-    box-shadow: 0px 0px 10px 5px rgba(2, 73, 17, 0.87);
+    box-shadow: 0px 0px 10px 3px rgba(221, 166, 15, 0.87);
+    /* box-shadow: 0px 0px 10px 5px rgba(2, 73, 17, 0.87); */
 }
 
 .app__projectCard-constent_img img {
@@ -59,24 +65,31 @@
 .app__projectCard-links_site a {
   text-decoration: none;
 }
-.app__projectCard-links button {
-  background: rgb(97, 2, 2);
+.app__projectCard-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
-  border-radius: 10px;
-  width: 65px;
-  height: 35px;
+  
+  width: 55px;
+  height: 25px;
   cursor: pointer;
-  font-family: var(--font-alt);
-  font-size: 17px;
-  color: wheat;
+  font-family: var(Cormorant);
+  font-size: 20px;
+  color: rgb(216, 204, 183);
   margin: 2rem;
-  transition: 0.2s ease-in-out;
+  
+  transition: 0.4s ease-in-out;
 }
-.app__projectCard-links button:hover{
-    color: rgb(233, 240, 234);
+.app__projectCard-links a:hover{
+    color: rgb(175, 159, 17);
+    /* border-top: 1px solid rgb(207, 164, 20); */
+    border-bottom: 1px solid rgb(207, 164, 20);
     text-decoration: solid;
-    letter-spacing: 1px;
-    transition: 0.2 ease-in-out;
+    
+    
+    transition: 0.4s ease-in-out;
+   
 }
 .app__projectCard-links_site a :visited {
   text-decoration: none;
