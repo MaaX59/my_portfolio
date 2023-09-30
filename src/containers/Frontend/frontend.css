@@ -1,6 +1,6 @@
 .app__frontend{
     display: flex;
-    background: rgb(2, 1, 46);
+    background: rgb(2, 1, 37);
     flex-direction: column;
 }
 .app__frontend-title{
