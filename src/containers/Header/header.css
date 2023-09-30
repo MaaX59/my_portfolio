@@ -1,0 +1,26 @@
+.app__header {
+  display: flex;
+
+  /* background-image: linear-gradient(0deg, rgb(0, 0, 40) 10%, rgb(0, 0, 0) 50%, rgb(0, 0, 40) 10%) ; */
+  background: radial-gradient(
+    ellipse at top,
+    rgb(0, 0, 60) 0%,
+    rgb(0, 0, 30) 100%
+  );
+
+  flex-direction: row;
+  color: beige;
+  justify-content: space-around;
+}
+.app__header-intro {
+  display: flex;
+font-size: 25px;
+  margin: 3rem 0 0 5rem;
+}
+
+.app__header svg {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  margin: 2rem 0 2rem 0;
+}
