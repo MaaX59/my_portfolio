@@ -3,8 +3,8 @@
   height: 67px;
   display: flex;
   flex-direction: row;
-  background-image: linear-gradient(0deg, rgb(0, 0, 30) 20%, rgb(16, 2, 49) 30%, rgb(0, 0, 30) 80%) ;
-
+  /* background-image: linear-gradient(0deg, rgb(0, 0, 30) 20%, rgb(16, 2, 49) 30%, rgb(0, 0, 30) 80%) ; */
+  background: radial-gradient(rgb(0, 0, 45) 0%, rgb(0, 0, 30) 100%);
   /* background: rgb(16, 1, 46); */
   text-align: center;
   color: rgb(181, 181, 214);

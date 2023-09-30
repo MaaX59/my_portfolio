@@ -1,7 +1,7 @@
 const Fullstack = [
     {
         name: "DealZone",
-        description:"Lorem ipsum adadwa",
+        description:"E-commerce website",
         link:"https://new-deal-zone.netlify.app/",
         code:"https://github.com/MaaX59/fine-dine",
         id:0,

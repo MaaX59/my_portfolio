@@ -6,7 +6,7 @@ const Header = ()=>{
   return (
     <div className='app__header'>
     <div className='app__header-intro' >
-      <h1>Hello there!<br/> I´m Max, welcome to my portfolio!</h1>
+      <h1>Hello there, I´m Max!</h1><br/>  <h2>Welcome to my portfolio!</h2>
     
     </div>
     <div className='app__header-animation'>
