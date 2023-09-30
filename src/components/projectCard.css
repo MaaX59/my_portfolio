@@ -1,0 +1,18 @@
+.app__projectCard{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(161, 161, 161);
+    position: relative;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px;
+    padding: 1rem;
+    margin: 3rem;
+    
+}
+.app__projectCard-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
