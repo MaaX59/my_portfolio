@@ -1,12 +1,11 @@
 .app__frontend{
     display: flex;
-    background: black;
+    background: rgb(2, 1, 46);
     flex-direction: column;
 }
 .app__frontend-title{
     display: flex;
     justify-content: center;
-    
     color: whitesmoke;
 }
 .app__frontend-content{

@@ -1,18 +1,70 @@
-.app__projectCard{
-    width: 300px;
-    height: 400px;
-    background-color: rgb(161, 161, 161);
-    position: relative;
-    border: 1px solid;
-    border-radius: 5px;
-    box-shadow: 5px;
-    padding: 1rem;
-    margin: 3rem;
-    
+.app__projectCard {
+  width: 350px;
+  height: 450px;
+  background-color: rgb(11, 1, 31);
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 3rem;
+  color: antiquewhite;
 }
-.app__projectCard-content{
+.app__projectCard-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.app__projectCard-constent_img img {
+  width: 350px;
+  border-radius: 5px;
+}
+.app__projectCard-content_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.app__projectCard-content_name h1 {
+  font-size: 10px;
+  font-family: fantasy;
+}
+.app__projectCard-content_description {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 325px;
+    margin: 3px;
+}
+.app__projectCard-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.app__projectCard-links_site a {
+  text-decoration: none;
+}
+.app__projectCard-links button {
+  background: rgb(85, 20, 20);
+  border: none;
+  border-radius: 13px;
+  width: 65px;
+  height: 35px;
+  cursor: pointer;
+  font-family: var(--font-alt);
+  font-size: 17px;
+  color: wheat;
+  margin: 3rem;
+}
+.app__projectCard-links_site a :visited {
+  text-decoration: none;
+}
+.app__projectCard-links_code a {
+  text-decoration: none;
+}
+.app__projectCard-links_code a :visited {
+  text-decoration: none;
 }
