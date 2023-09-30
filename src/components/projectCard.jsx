@@ -14,7 +14,7 @@ const projectCard = ({ project }) => {
           <h1>{name}</h1>
         </div>
 
-        <div className="app__projectCard-constent_description">
+        <div className="app__projectCard-content_description">
           <h5>{description}</h5>
         </div>
 

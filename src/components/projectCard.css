@@ -1,42 +1,53 @@
 .app__projectCard {
   width: 350px;
   height: 450px;
-  background-color: rgb(11, 1, 32);
+  background-color: rgb(10, 0, 31);
   position: relative;
   border: none;
-  border-radius: 5px;
-  box-shadow: 0px 0px 20px 10px rgba(36, 35, 35, 0.87);
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px 5px rgba(51, 50, 50, 0.87);
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: 3rem;
+  margin: 2rem;
   color: antiquewhite;
+  transition: 0.7s ease-in-out;
 }
 .app__projectCard:hover{
-    
-    transition: 0.7s;
-    box-shadow: 0px 0px 20px 10px rgba(2, 124, 29, 0.87);
+    background-color: rgb(11, 1, 40);
+    transition: 0.7s ease-in-out;
+    box-shadow: 0px 0px 10px 5px rgba(2, 73, 17, 0.87);
 }
 
 .app__projectCard-constent_img img {
   width: 350px;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 .app__projectCard-content_name {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+
   
 }
 .app__projectCard-content_name h1 {
+    margin: 1rem 1rem;
   font-size: 30px;
-  font-family: fantasy;
+  font-family: Cormorant SC;
+  
 }
-.app__projectCard-content_description {
+.app__projectCard-content_description{
     display: flex;
-    width: 325px;
+    justify-content: center;
+}
+.app__projectCard-content_description h5{
+    display: flex;
+    align-items: center;
+    width: 330px;
     margin: 3px;
+    font-family: Cormorant;
+    font-weight: 400;
 }
 .app__projectCard-links {
   display: flex;
@@ -48,16 +59,23 @@
   text-decoration: none;
 }
 .app__projectCard-links button {
-  background: rgb(99, 25, 25);
+  background: rgb(97, 2, 2);
   border: none;
-  border-radius: 13px;
+  border-radius: 10px;
   width: 65px;
   height: 35px;
   cursor: pointer;
   font-family: var(--font-alt);
   font-size: 17px;
   color: wheat;
-  margin: 3rem;
+  margin: 2rem;
+  transition: 0.2s ease-in-out;
+}
+.app__projectCard-links button:hover{
+    color: rgb(233, 240, 234);
+    text-decoration: solid;
+    letter-spacing: 1px;
+    transition: 0.2 ease-in-out;
 }
 .app__projectCard-links_site a :visited {
   text-decoration: none;
