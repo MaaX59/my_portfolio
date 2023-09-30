@@ -15,6 +15,7 @@ const App = () => {
       <Navbar />
       <Header />
       <Frontend />
+      <div className="gold_rim"></div>
       <Fullstack />
       <Tech />
       <Contact />

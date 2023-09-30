@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: 2rem;
+  margin: 1rem 2rem 3rem 2rem;
   color: antiquewhite;
   transition: 0.7s ease-in-out;
 }
@@ -43,6 +43,7 @@
 }
 .app__projectCard-content_description h5{
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 330px;
     margin: 3px;

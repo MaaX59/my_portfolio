@@ -1,13 +1,14 @@
 .app__frontend{
     display: flex;
     /* background: rgb(2, 1, 26); */
-    background-image: linear-gradient(-25deg, rgb(0, 0, 20) 0%, rgb(0, 0, 30) 100%);
+    /* background-image: linear-gradient(-25deg, rgb(0, 0, 0) 0%, rgb(0, 0, 51) 100%); */
+    background-image: linear-gradient(0deg, rgb(0, 0, 40) 0%, rgb(0, 0, 55) 50%, rgb(0, 0, 40) 100%) ;
     flex-direction: column;
 }
 .app__frontend-title{
     display: flex;
     justify-content: center;
-    color: rgb(116, 90, 90);
+    color: rgb(134, 117, 38);
     
 }
 .app__frontend-title h1{
