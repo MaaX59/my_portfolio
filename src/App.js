@@ -4,8 +4,8 @@ import {
   Frontend,
   Fullstack,
   Tech,
-  Contact,
-  Footer
+  Contact
+  
 } from "./containers";
 import "./App.css";
 
@@ -23,8 +23,7 @@ const App = () => {
       <Tech />
       <div className="gold_rim"></div>
       <Contact />
-      <div className="gold_rim"></div>
-      <Footer />
+      
     </div>
   );
 };
