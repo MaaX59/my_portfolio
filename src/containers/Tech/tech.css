@@ -1,0 +1,45 @@
+.app__tech{
+    display: flex;
+    /* background: rgb(2, 1, 26); */
+    /* background-image: linear-gradient(-25deg, rgb(0, 0, 0) 0%, rgb(0, 0, 51) 100%); */
+    /* background-image: linear-gradient(0deg, rgb(0, 0, 30) 30%, rgb(165, 125, 16) 50%, rgb(0, 0, 30) 70%) ; */
+    background: rgb(4,0,40);
+background: radial-gradient(circle, rgba(4,0,40,1) 42%, rgb(34, 31, 0) 75%, rgba(4,0,40,1) 78%); 
+    flex-direction: column;
+    height: 500px;
+}
+.app__tech-title {
+        display: flex;
+        justify-content: center;
+        color: rgb(134, 117, 38);    
+} 
+.app__tech-title h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 2rem;
+        font-size: 45px;
+        font-weight: 300;
+    }
+    .app__tech-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .app__tech-content-left{
+        font-family: cormorant SC;
+    margin: 2rem;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(128, 98, 1);
+
+    }
+    .app__tech-content-right{
+        font-family: cormorant SC;
+        margin: 2rem;
+        font-size: 25px;
+        
+        color: rgb(128, 98, 1);
+    }
+    .app__tech-content h2{
+       font-weight: 200; 
+    }

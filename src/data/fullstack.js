@@ -2,6 +2,7 @@ const Fullstack = [
     {
         name: "DealZone",
         description:"E-commerce website",
+        img: "../images/deal_zone.png",
         link:"https://new-deal-zone.netlify.app/",
         code:"https://github.com/MaaX59/fine-dine",
         id:0,
@@ -9,6 +10,7 @@ const Fullstack = [
     {
         name: "M2 Coding generator",
         description:"Quiz app using OpenAi",
+        img: "../images/coding_generator.png",
         link:"https://coding-generator.adaptable.app",
         code:"https://github.com/MaaX59/M2-coding-generator-app",
         id:1,

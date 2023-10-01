@@ -5,7 +5,7 @@ import ProjectCard from '../../components/projectCard';
 
 const Frontend = ()=>{
   return (
-    <div className='app__frontend'>
+    <div className='app__frontend' id='frontend'>
       <div className='app__frontend-title'>
         <h1>Frontend</h1>
       </div>

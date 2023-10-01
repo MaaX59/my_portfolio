@@ -5,7 +5,7 @@ import ProjectCard from '../../components/projectCard';
 
 const Fullstack = ()=>{
   return (
-    <div className='app__fullstack'>
+    <div className='app__fullstack' id='fullstack'>
       <div className='app__fullstack-title'>
         <h1>Fullstack</h1>
       </div>
@@ -19,4 +19,4 @@ const Fullstack = ()=>{
   )
 }
 
-export default Fullstack
+export default Fullstack;

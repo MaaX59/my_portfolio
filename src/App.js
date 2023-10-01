@@ -21,7 +21,9 @@ const App = () => {
       <Fullstack />
       <div className="gold_rim"></div>
       <Tech />
+      <div className="gold_rim"></div>
       <Contact />
+      <div className="gold_rim"></div>
       <Footer />
     </div>
   );

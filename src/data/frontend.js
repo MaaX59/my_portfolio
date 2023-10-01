@@ -2,7 +2,7 @@ const Frontend = [
   {
     name: "FineDine",
     description:"A fine resturant deserves a fine website.",
-    img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/b3/eb/caption.jpg?w=1200&h=-1&s=1",
+    img: "../images/finedine.png",
     link: "https://maax59.github.io/fine-dine/",
     code: "https://github.com/MaaX59/fine-dine",
     id: 0,

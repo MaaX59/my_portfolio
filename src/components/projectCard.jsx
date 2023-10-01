@@ -1,14 +1,15 @@
 import React from "react";
 import "./projectCard.css";
-import pic from "../images/finedine.png";
+
 
 const projectCard = ({ project }) => {
-  const { name, description, link, code } = project;
+  const { name, description, img, link, code } = project;
+  console.log(project.img)
   return (
     <div className="app__projectCard">
       <div className="app__projectCard-constent">
         <div className="app__projectCard-constent_img">
-          <img src={pic} alt="project w" />
+          <img src={img} alt="project img" />
         </div>
         <div className="app__projectCard-content_name">
           <h1>{name}</h1>
