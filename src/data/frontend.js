@@ -2,7 +2,7 @@ const Frontend = [
   {
     name: "FineDine",
     description:"A fine resturant deserves a fine website.",
-    img: '../../images/finedine.png',
+    image: '.../images/finedine.png',
     link: 'https://maax59.github.io/fine-dine/',
     code: "https://github.com/MaaX59/fine-dine",
     id: 0,
