@@ -2,7 +2,8 @@
   display: flex;
 position: relative;
   /* background-image: linear-gradient(0deg, rgb(0, 0, 40) 10%, rgb(0, 0, 0) 50%, rgb(0, 0, 40) 10%) ; */
-  background: radial-gradient(rgb(0, 0, 40) 0%, rgb(0, 0, 30) 100%);
+  /* background: radial-gradient(rgb(0, 0, 30) 0%, rgb(0, 0, 30) 100%); */
+  background: linear-gradient(348deg, rgba(4,0,30,1) 54%, rgba(4,0,50,1) 67%);
 
   /* flex-direction: row; */
   color: beige;

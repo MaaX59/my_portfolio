@@ -4,8 +4,7 @@ import {
   Frontend,
   Fullstack,
   Tech,
-  Contact
-  
+  Contact,
 } from "./containers";
 import "./App.css";
 
@@ -15,15 +14,14 @@ const App = () => {
       <Navbar />
       <div className="gold_rim"></div>
       <Header />
-      
+
       <Frontend />
-      
+
       <Fullstack />
-      
+
       <Tech />
-      
+
       <Contact />
-      
     </div>
   );
 };
