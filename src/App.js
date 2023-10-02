@@ -15,13 +15,13 @@ const App = () => {
       <Navbar />
       <div className="gold_rim"></div>
       <Header />
-      <div className="gold_rim"></div>
+      
       <Frontend />
-      <div className="gold_rim"></div>
+      
       <Fullstack />
-      <div className="gold_rim"></div>
+      
       <Tech />
-      <div className="gold_rim"></div>
+      
       <Contact />
       
     </div>
