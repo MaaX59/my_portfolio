@@ -1,9 +1,10 @@
+import finePic from '../images/finedine.png';
 const Frontend = [
   {
     name: "FineDine",
     description:"A fine resturant deserves a fine website.",
     tags: ["Html/Css3","React"],
-    image: '.../images/finedine.png',
+    image: finePic,
     link: 'https://maax59.github.io/fine-dine/',
     code: "https://github.com/MaaX59/fine-dine",
     id: 0,

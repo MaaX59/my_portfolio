@@ -13,7 +13,7 @@ const Fullstack = ()=>{
       
         {data.map((project, index)=>
 
-        <ProjectCard project={project} key={project.id}/>)}
+        <ProjectCard project={project} key={index}/>)}
       </div>
     </div>
   )

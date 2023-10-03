@@ -13,7 +13,7 @@ const Frontend = ()=>{
       
         {data.map((project, index)=>
 
-        <ProjectCard project={project} key={project.id}/>)}
+        <ProjectCard project={project} pict={project.image}  key={index}/>)}
       </div>
     </div>
   )
