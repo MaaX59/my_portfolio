@@ -63,7 +63,8 @@
 }
 .app__projectCard-content_tech h1 {
   font-size: 25px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
 }
 .app__projectCard-content_tags {
   display: flex;
@@ -73,13 +74,12 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  padding: 0 0.5rem;
+  padding: 0 0.3rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
 }
 
-.h1 {
-  color: aliceblue;
-  font-size: large;
-}
+
 
 .app__projectCard-links {
   display: flex;
@@ -103,15 +103,15 @@
   margin: 0 2rem;
   padding-bottom: 1rem;
 
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 .app__projectCard-links a:hover {
   color: rgb(146, 132, 6);
   /* border-top: 1px solid rgb(207, 164, 20); */
   /* border-bottom: 1px solid rgb(207, 164, 20); */
   text-decoration: solid;
-
-  transition: 0.3s ease-in-out;
+text-shadow: 1px 0 10px red;
+  transition: 0.2s ease-in-out;
 }
 .app__projectCard-links_site a :visited {
   text-decoration: none;
