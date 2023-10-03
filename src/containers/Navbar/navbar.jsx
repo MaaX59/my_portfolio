@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="app__navbar-content">
         <div className="app__navbar-title">
           <FaConnectdevelop size={30} />
-          <h1>Max Strandberg</h1>
+          <h1>Dream -    Design -    Develop</h1>
         </div>
         <div className="app__navbar-links">
           <ul>

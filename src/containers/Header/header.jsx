@@ -7,8 +7,7 @@ const Header = ()=>{
     <div className='app__header'>
     <div className='app__header-intro' >
       <h1>Hello there, I´m Max.</h1>
-      <br/>
-      <h2>Dream - Design - Develop</h2>
+      
        <br/> <h2>Welcome to my portfolio!</h2>
     
     </div>
