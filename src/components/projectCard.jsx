@@ -1,6 +1,6 @@
 import React from "react";
 import "./projectCard.css";
-import Tags from "./tags.js";
+
 
 
 //for some reson my img props dosent work so i´m gonna do it like this for now

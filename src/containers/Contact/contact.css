@@ -61,3 +61,26 @@ margin: 0 4rem;
     text-decoration: none;
     font-size: 20px;
 }
+
+@media screen and (max-width: 450px){
+    .app__contact-content{
+        flex-direction: column;
+    }
+
+   .app__contact-content-call{
+    margin: 0 1rem;
+
+   } 
+   .app__contact-content-email{
+    margin: 0 1rem;
+
+   } 
+   .app__contact-content-github{
+    margin: 0 1rem;
+
+   } 
+   .app__contact-content-linkedin{
+    margin: 0 1rem;
+
+   } 
+}
