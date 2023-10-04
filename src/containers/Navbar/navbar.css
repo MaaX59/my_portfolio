@@ -150,3 +150,94 @@
   box-shadow: 0 0 12px #ffee10;
   transform: scale(1.1);
 }
+
+.app__navbar-smallscreen {
+  display: none;
+}
+.app__navbar-smallscreen-menu{
+ align-self: center;
+ margin-right: 0.8rem;
+  color:"#fff";
+  font-size: 27px;
+}
+.app__navbar-smallscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgb(1, 0, 46);
+  transition: 0.5s ease;
+  z-index: 5;
+  flex-direction: column;
+
+
+}
+.app__navbar-smallscreen-overlay .overlay__close{
+  font-size:27px ;
+  color: rgb(104, 104, 114);
+  cursor:pointer ;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.app__navbar-smallscreen-links{
+list-style: none;
+
+}
+.app__navbar-smallscreen-links a{
+  list-style: none;
+  text-decoration: none;
+  color: silver;
+  font-family: "Courier New", Courier, monospace;
+}
+.app__navbar-smallscreen-links li {
+margin: 2rem;
+cursor: pointer;
+
+
+text-decoration: none;
+font-size:2rem ;
+text-align: center;
+
+}
+.app__navbar-smallscreen-links li:hover{
+  color: whitesmoke;
+}
+
+@media screen and (max-width:450px) {
+  .app__navbar-links{
+      display: none;
+  }
+  .app__navbar-smallscreen{
+      display: flex;
+
+  }
+  
+}
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
