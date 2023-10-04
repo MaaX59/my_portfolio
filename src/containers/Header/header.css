@@ -40,3 +40,19 @@ position: relative;
   margin: 1.5rem ;
   z-index: -1;
 }
+
+
+@media screen and (max-width: 450px) {
+  .app__header-intro{
+    padding-bottom: 4rem;
+    display: flex;
+    margin: 2rem 0 0 5rem;
+
+
+  }
+  .app__header-animation{
+    position: fixed;
+   
+  }
+  
+}
