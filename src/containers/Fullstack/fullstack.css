@@ -23,3 +23,8 @@ padding-bottom: 5rem;
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width: 450px) {
+    .app__fullstack-content {
+        flex-direction: column;
+    }
+}
