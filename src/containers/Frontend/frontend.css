@@ -1,5 +1,7 @@
 .app__frontend{
     display: flex;
+    
+    align-items: center;
     /* background: rgb(2, 1, 26); */
     /* background-image: linear-gradient(-25deg, rgb(0, 0, 0) 0%, rgb(0, 0, 51) 100%); */
     background-image: linear-gradient(0deg, rgba(4,0,30,1) 30%, rgb(165, 125, 16) 50%, rgba(4,0,30,1) 70%) ;

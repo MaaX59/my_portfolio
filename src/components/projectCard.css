@@ -135,6 +135,33 @@ text-shadow: 1px 0 10px red;
     
     
   }
+  .app__projectCard-constent_img{
+    width: 300px;
+    
+  }
+  .app__projectCard-content_name h1 {
+   
+    font-size: 20px;
+    
+  }
+ 
+  .app__projectCard-content_description h5 {
+   
+    width: fit-content;
+    margin: 0 3px;
+    
+    font-size: 15px;
+    
+  }
+  
+  .app__projectCard-content_tech h1 {
+    font-size: 20px;
+    
+  }
+  .app__projectCard-content_tags-tag{
+    font-size: 13px;
+  }
+  
    
 
 }
