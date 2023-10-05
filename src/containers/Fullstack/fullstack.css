@@ -24,8 +24,12 @@ padding-bottom: 5rem;
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 978px) {
     .app__fullstack-content {
         flex-direction: column;
+    }
+    .app__fullstack{
+        background-image: linear-gradient(0deg, rgba(4,0,30,1) 20%, rgb(165, 125, 16) 30%, rgba(4,0,30,1) 40%, rgba(4,0,30,1) 60%, rgb(165, 125, 16) 70%, rgba(4,0,30,1) 80%) ;
+
     }
 }
