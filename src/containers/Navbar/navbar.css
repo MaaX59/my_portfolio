@@ -2,6 +2,7 @@
   width: 100%;
   height: 67px;
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
   /* background-image: linear-gradient(0deg, rgb(0, 0, 30) 20%, rgb(16, 2, 49) 30%, rgb(0, 0, 30) 80%) ; */
   background: radial-gradient(rgb(0, 0, 45) 0%, rgb(0, 0, 30) 100%);
@@ -24,7 +25,7 @@
   font-size: 13px;
 }
 .app__navbar-title svg {
-  margin: 8px;
+  margin: 5px;
   animation: rotate 8s infinite linear;
 }
 @keyframes rotate {
@@ -32,7 +33,7 @@
     transform: rotate(0deg) scale(1);
   }
   50% {
-    transform: rotate(180deg) scale(0.80);
+    transform: rotate(180deg) scale(0.8);
   }
   100% {
     transform: rotate(360deg) scale(1);
@@ -44,7 +45,6 @@
   align-items: center;
   margin-right: 2rem;
   font-family: "Courier New", Courier, monospace;
-
   text-decoration: none;
 }
 .app__navbar-links ul {
@@ -119,16 +119,13 @@
   display: block;
   width: 25px;
   height: 25px;
-
   background: rgb(16, 1, 46);
-
   border-radius: 50%;
   font-size: 30px;
   color: #666;
   transition: 0.5s;
 }
 .app__navbar-contact svg::before {
-  
   position: relative;
   top: 0;
   left: 0;
@@ -154,13 +151,13 @@
 .app__navbar-smallscreen {
   display: none;
 }
-.app__navbar-smallscreen-menu{
- align-self: center;
- margin-right: 0.8rem;
-  color:"#fff";
+.app__navbar-smallscreen-menu {
+  align-self: center;
+  
+  color: "#fff";
   font-size: 27px;
 }
-.app__navbar-smallscreen-menu:hover{
+.app__navbar-smallscreen-menu:hover {
   color: rgb(151, 156, 156);
 }
 .app__navbar-smallscreen-overlay {
@@ -173,76 +170,79 @@
   transition: 0.5s ease;
   z-index: 5;
   flex-direction: column;
-  
-
-
 }
-.app__navbar-smallscreen-overlay .overlay__close{
-  font-size:27px ;
+.app__navbar-smallscreen-overlay .overlay__close {
+  font-size: 27px;
   color: rgb(104, 104, 114);
-  cursor:pointer ;
+  cursor: pointer;
   position: absolute;
   top: 20px;
   right: 20px;
 }
 
-.app__navbar-smallscreen-links{
-list-style: none;
-justify-content: space-around;
-
+.app__navbar-smallscreen-links {
+  list-style: none;
+  justify-content: space-around;
 }
-.app__navbar-smallscreen-links a{
+.app__navbar-smallscreen-links a {
   list-style: none;
   text-decoration: none;
   color: silver;
   font-family: "Courier New", Courier, monospace;
 }
 .app__navbar-smallscreen-links li {
-margin: 2rem;
-cursor: pointer;
-
-
-text-decoration: none;
-font-size:2rem ;
-text-align: center;
-
+  margin: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
 }
-.app__navbar-smallscreen-links li:hover{
+.app__navbar-smallscreen-links li:hover {
   color: whitesmoke;
 }
 
-@media screen and (max-width:450px) {
-  .app__navbar-links{
-      display: none;
+@media screen and (max-width: 450px) {
+  .app__navbar-links {
+    display: none;
   }
-  .app__navbar-smallscreen{
-      display: flex;
-
+  .app__navbar-smallscreen {
+    display: flex;
   }
-  
+  .app__navbar {
+    width: 100vw;
+  }
+  .app__navbar-smallscreen-menu {
+    align-self: center;
+    margin-right: 0.8rem;
+    color: "#fff";
+    font-size: 25px;
+  }
+  .app__navbar-content{
+    margin: 0 1rem;
+  }
 }
 
 .slide-bottom {
-  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 @-webkit-keyframes slide-bottom {
   0% {
     -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
+    transform: translateY(-25%);
   }
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
 @keyframes slide-bottom {
   0% {
     -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
+    transform: translateY(-25%);
   }
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }

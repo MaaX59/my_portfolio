@@ -36,9 +36,7 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">
             <FaLinkedinIn />
           </a>
-        </div>
-      </div>
-      <div className="app__navbar-smallscreen">
+        </div><div className="app__navbar-smallscreen">
         <GiHamburgerMenu className="app__navbar-smallscreen-menu"
         
           onClick={() => setToggleMenu(true)}
@@ -65,6 +63,8 @@ const Navbar = () => {
           </div>
           )}
           </div>
+      </div>
+      
           </div>
           
     
