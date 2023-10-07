@@ -1,7 +1,7 @@
 .app__projectCard {
   width: 350px;
   height: 450px;
-  background-color: rgb(10, 0, 33);
+  background-color: rgb(10, 0, 20);
   position: relative;
   border: none;
   border-radius: 7px;
@@ -19,7 +19,7 @@
   justify-content: space-between;
 }
 .app__projectCard:hover {
-  background-color: rgb(11, 1, 46);
+  background-color: rgb(11, 1, 35);
   transition: 0.3s ease-in-out;
   box-shadow: 0px 0px 10px 3px rgba(221, 166, 15, 0.87);
   /* box-shadow: 0px 0px 10px 5px rgba(2, 73, 17, 0.87); */
