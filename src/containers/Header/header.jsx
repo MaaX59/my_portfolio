@@ -7,7 +7,8 @@ const Header = ()=>{
   return (
     <div className='app__header'>
     <div className='app__header-intro' >
-      <h1>Hello there, I´m&nbsp;<span style={{color:"red"}}>Max</span> </h1>
+      <h1>Hello there,</h1> <h1>I´m&nbsp;<span style={{color:"red"}}>Max</span> </h1>
+      
       <div className='app__header-animation'>
       <img src={headshot} alt="headshot" />
       <BackgroundAnimation />
