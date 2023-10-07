@@ -12,7 +12,8 @@ const Header = ()=>{
       <img src={headshot} alt="headshot" />
       <BackgroundAnimation />
     </div>
-       <br/> <h2>As a fullstack web developer, I aim to create simple yet beautiful applications to inrich the web!</h2>
+       <br/> <h2>As a fullstack web developer, my aim is to create simple, yet beautiful applications to enrich the web!</h2>
+       {/* <br/> <h3>Scroll down to check out my projects!</h3> */}
     
     </div>
      
