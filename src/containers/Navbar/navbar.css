@@ -16,7 +16,7 @@
   position: relative;
   justify-content: space-between;
   width: 100%;
-  margin: 0 3rem;
+  /* margin: 0 3rem; */
 }
 .app__navbar-title {
   display: flex;
@@ -43,7 +43,7 @@
 .app__navbar-links {
   display: flex;
   align-items: center;
-  margin-right: 2rem;
+  padding-right: 2rem;
   font-family: "Courier New", Courier, monospace;
   text-decoration: none;
 }
@@ -208,9 +208,7 @@
   .app__navbar-smallscreen {
     display: flex;
   }
-  .app__navbar {
-    width: 100vw;
-  }
+ 
   .app__navbar-smallscreen-menu {
     align-self: center;
     margin-right: 0.8rem;
@@ -218,7 +216,7 @@
     font-size: 25px;
   }
   .app__navbar-content{
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
   }
 }
 
