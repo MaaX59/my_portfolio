@@ -1,7 +1,7 @@
 import React from 'react';
 import "./header.css";
 import BackgroundAnimation from '../../components/backgroundAnimation';
-import headshot from '../../images/stylized_headshot - Copy.png'
+import headshot from '../../images/cat3.png'
 
 const Header = ()=>{
   return (

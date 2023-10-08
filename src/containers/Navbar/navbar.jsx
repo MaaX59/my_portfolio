@@ -33,7 +33,7 @@ const Navbar = () => {
           <a href="https://github.com/MaaX59">
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">
+          <a href="https://www.linkedin.com/in/max-strandberg-803a5625b/">
             <FaLinkedinIn />
           </a>
         </div><div className="app__navbar-smallscreen">

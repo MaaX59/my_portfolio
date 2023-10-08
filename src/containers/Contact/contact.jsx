@@ -20,7 +20,7 @@ const Contact = () => {
           <a className="p-text" href="https://github.com/MaaX59"> Github</a>
         </div>
         <div className="app__contact-content-linkedin">
-          <a className="p-text" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">
+          <a className="p-text" href="https://www.linkedin.com/in/max-strandberg-803a5625b/">
             Linkedin
           </a>
         </div>
