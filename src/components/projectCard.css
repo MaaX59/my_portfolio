@@ -62,7 +62,7 @@
   color: rgb(100, 108, 126);
 }
 .app__projectCard-content_tech h1 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 600;
 }
@@ -76,6 +76,7 @@
   flex-direction: row;
   padding: 0 0.3rem;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
   font-weight: 300;
 }
 
@@ -155,11 +156,11 @@ text-shadow: 1px 0 10px red;
   }
   
   .app__projectCard-content_tech h1 {
-    font-size: 20px;
+    font-size: 16px;
     
   }
   .app__projectCard-content_tags-tag{
-    font-size: 13px;
+    font-size: 11px;
   }
   
    
