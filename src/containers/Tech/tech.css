@@ -4,7 +4,7 @@
     /* background-image: linear-gradient(-25deg, rgb(0, 0, 0) 0%, rgb(0, 0, 51) 100%); */
     /* background-image: linear-gradient(0deg, rgb(0, 0, 30) 30%, rgb(165, 125, 16) 50%, rgb(0, 0, 30) 70%) ; */
     
-background: radial-gradient(circle, rgba(4,0,15,1) 42%, rgb(104, 85, 1) 75%, rgba(4,0,15,1) 78%); 
+background: radial-gradient(circle, rgba(4,0,15,1) 55%, rgb(104, 85, 1) 68%, rgba(4,0,15,1) 72%); 
     flex-direction: column;
     height: 500px;
     padding-top: 2rem;
