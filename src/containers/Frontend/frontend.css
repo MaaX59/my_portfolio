@@ -28,8 +28,8 @@
     .app__frontend-content {
         flex-direction: column;
     }
-    /* .app__frontend{
-        background-image: linear-gradient(0deg, rgba(4,0,30,1) 20%, rgb(165, 125, 16) 30%, rgba(4,0,30,1) 40%, rgba(4,0,30,1) 60%, rgb(165, 125, 16) 70%, rgba(4,0,30,1) 80%) ;
+    .app__frontend{
+        background-image: linear-gradient(0deg, rgba(4,0,15,1) 20%, rgb(165, 125, 16) 30%, rgba(4,0,15,1) 40%, rgba(4,0,15,1) 60%, rgb(165, 125, 16) 70%, rgba(4,0,15,1) 80%) ;
 
-    } */
+    }
 }

@@ -51,13 +51,13 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen-links">
             <li>
-              <a href="#frontend">Frontend</a>
+              <a onClick={()=>{setToggleMenu(!toggleMenu)}} href="#frontend">Frontend</a>
             </li>
             <li>
-              <a href="#fullstack">Fullstack</a>
+              <a onClick={()=>{setToggleMenu(!toggleMenu)}} href="#fullstack">Fullstack</a>
             </li>
             <li>
-              <a href="#technologies">Technologies</a>
+              <a onClick={()=>{setToggleMenu(!toggleMenu)}} href="#technologies">Technologies</a>
             </li>
             </ul>
           </div>

@@ -4,7 +4,7 @@ const Fullstack = [
     {
         name: "DealZone",
         description:"E-commerce website",
-        tags: ["HTML/CSS3","Tailwind", "Express.js","React" ] ,
+        tags: ["MERN-stack","Tailwind" ] ,
         image: dealPic,
         link:"https://new-deal-zone.netlify.app/",
         code:"https://github.com/MaaX59/frontend",
