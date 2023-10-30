@@ -13,7 +13,7 @@ const Fullstack = [
     {
         name: "M2 Coding generator",
         description:"Quiz app using OpenAi",
-        tags: ["HTML/CSS3", "Express.js","JavaScript" ] ,
+        tags: [ "Express.js", "MongoDb","JavaScript" ] ,
         image: m2Pic,
         link:"https://coding-generator.adaptable.app",
         code:"https://github.com/MaaX59/M2-coding-generator-app",
