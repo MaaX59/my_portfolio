@@ -4,7 +4,7 @@ const Fullstack = [
     {
         name: "DealZone",
         description:"E-commerce website",
-        tags: ["MERN-stack","Tailwind" ] ,
+        tags: ["MERN-stack","TailwindCSS" ] ,
         image: dealPic,
         link:"https://new-deal-zone.netlify.app/",
         code:"https://github.com/MaaX59/frontend",
@@ -13,7 +13,7 @@ const Fullstack = [
     {
         name: "M2 Coding generator",
         description:"Quiz app using OpenAi",
-        tags: [ "Express.js", "MongoDb","JavaScript" ] ,
+        tags: ["JavaScript", "Express.js", "MongoDb" ] ,
         image: m2Pic,
         link:"https://coding-generator.adaptable.app",
         code:"https://github.com/MaaX59/M2-coding-generator-app",

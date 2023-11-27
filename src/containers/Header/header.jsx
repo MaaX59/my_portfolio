@@ -14,7 +14,7 @@ const Header = ()=>{
       <BackgroundAnimation />
     </div>
        <br/> <h2>As a fullstack web developer, my aim is to create simple, yet beautiful applications to enrich the web!</h2>
-       {/* <br/> <h3>Scroll down to check out my projects!</h3> */}
+       <br/> <h3>Scroll down to check out my projects!</h3>
     
     </div>
      
