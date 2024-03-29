@@ -14,7 +14,7 @@ const Header = () => {
           <h1>
             Hello there! I´m&nbsp;<span style={{ color: "red" }}>Max</span>
           </h1>
-          <h2>I´m a fullstack web developer from Sweden</h2>
+          <h2>I´m a Fullstack Web Developer from Sweden</h2>
           <div className="app__header-intro-first-buttons">
             <button className="app__header_button">About</button>
             <button className="app__header_button2">Projects</button>
