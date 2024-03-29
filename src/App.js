@@ -5,6 +5,7 @@ import {
   Fullstack,
   Tech,
   Contact,
+  About,
 } from "./containers";
 import "./App.css";
 
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar />
       <div className="gold_rim"></div>
       <Header />
+      <About />
 
       <Frontend />
 

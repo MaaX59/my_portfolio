@@ -1,31 +1,29 @@
-import React from 'react';
+import React from "react";
 import "./header.css";
-import BackgroundAnimation from '../../components/backgroundAnimation';
-import headshot from '../../images/cat3.png'
+// import BackgroundAnimation from '../../components/backgroundAnimation';
+// import headshot from '../../images/cat3.png'
+import headshot from "../../images/headshot2.png";
 
-const Header = ()=>{
+const Header = () => {
   return (
-    <div className='app__header'>
-    <div className='app__header-intro' >
-      <h1>Hello there,</h1> <h1>I´m&nbsp;<span style={{color:"red"}}>Max</span> </h1>
-      
-      <div className='app__header-animation'>
-      <img src={headshot} alt="headshot" />
-      <BackgroundAnimation />
+    <div className="app__header">
+      <div className="app__header-intro">
+        <h1>Hello there,</h1>{" "}
+        <h1>
+          I´m&nbsp;<span style={{ color: "red" }}>Max</span>{" "}
+        </h1>
+        <div className="app__header-animation">
+          <img src={headshot} alt="headshot" />
+        </div>
+        <br />{" "}
+        <h2>
+          As a fullstack web developer, my aim is to create simple, yet
+          beautiful applications to enrich the web!
+        </h2>
+      </div>
+      <h3>Scroll down to check out my projects!</h3>
     </div>
-       <br/> <h2>As a fullstack web developer, my aim is to create simple, yet beautiful applications to enrich the web!</h2>
-       <br/> <h3>Scroll down to check out my projects!</h3>
-    
-    </div>
-     
-    
-    
-   
-    
-    
-
-    </div>
-  )
-}
+  );
+};
 
 export default Header;
