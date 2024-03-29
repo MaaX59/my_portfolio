@@ -10,6 +10,7 @@
   text-align: center;
   color: rgb(181, 181, 214);
   position: relative;
+  z-index: 2;
 }
 .app__navbar-content {
   display: flex;
@@ -153,7 +154,7 @@
 }
 .app__navbar-smallscreen-menu {
   align-self: center;
-  
+
   color: "#fff";
   font-size: 27px;
 }
@@ -208,14 +209,14 @@
   .app__navbar-smallscreen {
     display: flex;
   }
- 
+
   .app__navbar-smallscreen-menu {
     align-self: center;
     margin-right: 0.8rem;
     color: "#fff";
     font-size: 25px;
   }
-  .app__navbar-content{
+  .app__navbar-content {
     /* margin: 0 1rem; */
   }
 }
