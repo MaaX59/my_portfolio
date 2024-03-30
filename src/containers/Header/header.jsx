@@ -16,8 +16,12 @@ const Header = () => {
           </h1>
           <h2>I´m a Fullstack Web Developer from Sweden</h2>
           <div className="app__header-intro-first-buttons">
-            <button className="app__header_button">About</button>
-            <button className="app__header_button2">Projects</button>
+            <a href="#about" className="app__header_button">
+              About
+            </a>
+            <a href="#frontend" className="app__header_button2">
+              Projects
+            </a>
           </div>
         </div>
         <div className="app__header-intro-second">

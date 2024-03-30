@@ -5,7 +5,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="app__about">
+    <div id="about" className="app__about">
       <div className="app__about_content">
         <div className="app__about_content-animation">
           <BackgroundAnimation />
