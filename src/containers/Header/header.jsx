@@ -12,7 +12,8 @@ const Header = () => {
       <div className="app__header-intro">
         <div className="app__header-intro-first">
           <h1>
-            Hello there! I´m&nbsp;<span style={{ color: "red" }}>Max</span>
+            Hello there! I´m&nbsp;
+            <span style={{ color: "#042ac2" }}>Max</span>
           </h1>
           <h2>I´m a Fullstack Web Developer from Sweden</h2>
           <div className="app__header-intro-first-buttons">
