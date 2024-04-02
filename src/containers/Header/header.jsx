@@ -2,13 +2,13 @@ import React from "react";
 import "./header.css";
 // import BackgroundAnimation from '../../components/backgroundAnimation';
 // import headshot from '../../images/cat3.png'
-import headshot from "../../images/headshot2.png";
-import bg from "../../images/bg2.png";
+import headshot from "../../images/round-headshot.png";
+import bg from "../../images/bg6.png";
 
 const Header = () => {
   return (
     <div className="app__header">
-      <img src={bg} alt="background" />
+      {/* <img src={bg} alt="background" /> */}
       <div className="app__header-intro">
         <div className="app__header-intro-first">
           <h1>

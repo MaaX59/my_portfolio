@@ -5,10 +5,10 @@
   justify-content: space-around;
   flex-direction: row;
   /* background-image: linear-gradient(0deg, rgb(0, 0, 30) 20%, rgb(16, 2, 49) 30%, rgb(0, 0, 30) 80%) ; */
-  background: radial-gradient(rgb(0, 0, 25) 0%, rgb(0, 0, 15) 100%);
-  /* background: rgb(16, 1, 46); */
+  /* background: radial-gradient(rgb(162, 162, 218) 0%, rgb(238, 238, 240) 100%); */
+  background: rgb(226, 225, 225);
   text-align: center;
-  color: rgb(181, 181, 214);
+  color: rgb(7, 7, 7);
   position: relative;
   z-index: 2;
 }
@@ -63,7 +63,8 @@
   margin-left: 2rem;
 }
 .app__navbar-links a {
-  color: rgb(181, 181, 214);
+  color: rgb(25, 25, 26);
+  font-weight: 600;
   text-decoration: none;
   position: relative;
   padding: 0.5em 0.8em;
@@ -86,8 +87,8 @@
   content: "";
   right: 0;
   top: 0;
-  border-top: 3px solid #3e8914;
-  border-right: 3px solid #2e640f;
+  border-top: 3px solid #055f00;
+  border-right: 3px solid #055f00;
   transform: translate(-100%, 50%);
 }
 
@@ -95,8 +96,8 @@
   content: "";
   left: 0;
   bottom: 0;
-  border-bottom: 3px solid #2e640f;
-  border-left: 3px solid #3e8914;
+  border-bottom: 3px solid #055f00;
+  border-left: 3px solid #055f00;
   transform: translate(100%, -50%);
 }
 
@@ -107,7 +108,7 @@
 }
 
 .app__navbar-links a:hover {
-  color: #3da35d;
+  color: #055f00;
 }
 
 .app__navbar-contact {
@@ -120,10 +121,10 @@
   display: block;
   width: 25px;
   height: 25px;
-  background: rgb(16, 1, 46);
+  background: rgb(255, 255, 255);
   border-radius: 50%;
   font-size: 30px;
-  color: #666;
+  color: #b8b5b5;
   transition: 0.5s;
 }
 .app__navbar-contact svg::before {
@@ -133,19 +134,16 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #ffee10;
+
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
 }
 .app__navbar-contact svg:hover::before {
   transform: scale(1);
-  box-shadow: 0 0 25px #ffee10;
 }
 
 .app__navbar-contact svg:hover {
-  color: #ffee10;
-  box-shadow: 0 0 12px #ffee10;
   transform: scale(1.1);
 }
 

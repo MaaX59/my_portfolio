@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className="app">
       <Navbar />
-      <div className="gold_rim"></div>
+
       <Header />
       <About />
 
