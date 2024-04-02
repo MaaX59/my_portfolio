@@ -1,22 +1,22 @@
-import React from 'react';
-import "./frontend.css"
+import React from "react";
+import "./frontend.css";
 import data from "../../data/frontend";
-import ProjectCard from '../../components/projectCard';
+import ProjectCard from "../../components/projectCard";
 
-const Frontend = ()=>{
+const Frontend = () => {
   return (
-    <div className='app__frontend' id='frontend'>
-      <div className='app__frontend-title'>
-        <h1>Frontend</h1>
+    <div className="app__frontend" id="frontend">
+      <div className="app__frontend-title">
+        <h1>Landing Pages</h1>
       </div>
-      <div className='app__frontend-content'>
-      
-        {data.map((project, index)=>
 
-        <ProjectCard project={project}   key={index}/>)}
+      <div className="app__frontend-content">
+        {data.map((project, index) => (
+          <ProjectCard project={project} key={index} />
+        ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Frontend
+export default Frontend;

@@ -16,8 +16,9 @@ const About = () => {
           <p>
             I am a passionate Full-Stack Developer from Sweden and I am excited
             about creating eye-catching, yet minimalistic websites and
-            applications. My strengths lie in translating designs into fully
-            responsive websites.{" "}
+            applications. <br />
+            My strengths lie in translating designs into fully responsive
+            websites.{" "}
           </p>
           <p>
             I made my first websites as soon as I got the internet at the age of
