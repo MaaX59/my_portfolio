@@ -6,7 +6,7 @@
   flex-direction: row;
   /* background-image: linear-gradient(0deg, rgb(0, 0, 30) 20%, rgb(16, 2, 49) 30%, rgb(0, 0, 30) 80%) ; */
   /* background: radial-gradient(rgb(162, 162, 218) 0%, rgb(238, 238, 240) 100%); */
-  background: rgb(226, 225, 225);
+  background: rgb(255, 255, 255);
   text-align: center;
   color: rgb(7, 7, 7);
   position: relative;
@@ -17,7 +17,7 @@
   position: relative;
   justify-content: space-between;
   width: 100%;
-  margin: 0 3rem;
+  margin: 0 2rem 0 3rem;
 }
 .app__navbar-title {
   display: flex;

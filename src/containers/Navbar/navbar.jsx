@@ -1,4 +1,4 @@
-import {React, useState} from "react";
+import { React, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaConnectdevelop, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { SlClose } from "react-icons/sl";
@@ -29,45 +29,64 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="app__navbar-contact">
+        {/* <div className="app__navbar-contact">
           <a href="https://github.com/MaaX59">
             <FaGithub />
           </a>
           <a href="https://www.linkedin.com/in/max-strandberg-803a5625b/">
             <FaLinkedinIn />
           </a>
-        </div><div className="app__navbar-smallscreen">
-        <GiHamburgerMenu className="app__navbar-smallscreen-menu"
-        
-          onClick={() => setToggleMenu(true)}
-        />
+        </div> */}
+        <div className="app__navbar-smallscreen">
+          <GiHamburgerMenu
+            className="app__navbar-smallscreen-menu"
+            onClick={() => setToggleMenu(true)}
+          />
 
-        {toggleMenu && (
-          <div className="app__navbar-smallscreen-overlay flex__center slide-bottom">
-            <SlClose
-              fontSize={27}
-              className="overlay__close"
-              onClick={() => setToggleMenu(false)}
-            />
-            <ul className="app__navbar-smallscreen-links">
-            <li>
-              <a onClick={()=>{setToggleMenu(!toggleMenu)}} href="#frontend">Frontend</a>
-            </li>
-            <li>
-              <a onClick={()=>{setToggleMenu(!toggleMenu)}} href="#fullstack">Fullstack</a>
-            </li>
-            <li>
-              <a onClick={()=>{setToggleMenu(!toggleMenu)}} href="#technologies">Technologies</a>
-            </li>
-            </ul>
-          </div>
+          {toggleMenu && (
+            <div className="app__navbar-smallscreen-overlay flex__center slide-bottom">
+              <SlClose
+                fontSize={27}
+                className="overlay__close"
+                onClick={() => setToggleMenu(false)}
+              />
+              <ul className="app__navbar-smallscreen-links">
+                <li>
+                  <a
+                    onClick={() => {
+                      setToggleMenu(!toggleMenu);
+                    }}
+                    href="#frontend"
+                  >
+                    Frontend
+                  </a>
+                </li>
+                <li>
+                  <a
+                    onClick={() => {
+                      setToggleMenu(!toggleMenu);
+                    }}
+                    href="#fullstack"
+                  >
+                    Fullstack
+                  </a>
+                </li>
+                <li>
+                  <a
+                    onClick={() => {
+                      setToggleMenu(!toggleMenu);
+                    }}
+                    href="#technologies"
+                  >
+                    Technologies
+                  </a>
+                </li>
+              </ul>
+            </div>
           )}
-          </div>
+        </div>
       </div>
-      
-          </div>
-          
-    
+    </div>
   );
 };
 
