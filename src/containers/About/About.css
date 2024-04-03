@@ -38,7 +38,7 @@
   margin: 2rem 0 0 2rem;
   flex-direction: column;
 }
-.app__about_content-info h1 {
+.title {
   color: rgb(38, 38, 247);
   font-size: 23px;
   font-family: "Courier New", Courier, monospace;
@@ -56,13 +56,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
-  width: 800px;
+  flex-direction: column;
+  margin: 1rem 0 4rem;
+  width: 900px;
 }
 .app__about-techstack ul {
   display: flex;
   list-style: none;
   width: 100%;
+  margin-top: 1rem;
   justify-content: space-around;
 }
 .app__about-techstack img {
@@ -104,6 +106,12 @@
   .app__about_bottom span {
     font-size: 20px;
   }
+  .app__about-techstack {
+    width: 750px;
+  }
+  .app__about-techstack ul img {
+    height: 28px;
+  }
 }
 @media screen and (max-width: 778px) {
   .app__about_content {
@@ -126,7 +134,12 @@
     width: 430px;
     font-size: 15px;
   }
-
+  .app__about-techstack {
+    width: 600px;
+  }
+  .app__about-techstack ul img {
+    height: 24px;
+  }
   .app__about_bottom span {
     font-size: 17px;
   }
@@ -149,8 +162,17 @@
   .app__about_content-info p {
     width: 380px;
   }
+  .app__about-techstack {
+    width: 578px;
+  }
+  .app__about-techstack ul img {
+    height: 20px;
+  }
 }
 @media screen and (max-width: 578px) {
+  .app__about {
+    height: 600px;
+  }
   .app__about_content {
     width: 450px;
   }
@@ -163,6 +185,12 @@
   }
   .app__about_content-info p {
     width: 260px;
+  }
+  .app__about-techstack {
+    width: 430px;
+  }
+  .app__about-techstack ul img {
+    height: 15px;
   }
 }
 @media screen and (max-width: 430px) {
@@ -180,6 +208,12 @@
     width: 230px;
     font-size: 14px;
   }
+  .app__about-techstack {
+    width: 375px;
+  }
+  .app__about-techstack ul img {
+    height: 15px;
+  }
 }
 @media screen and (max-width: 375px) {
   .app__about_content {
@@ -191,5 +225,11 @@
   .app__about_content-info p {
     width: 190px;
     font-size: 14px;
+  }
+  .app__about-techstack {
+    width: 320px;
+  }
+  .app__about-techstack ul img {
+    height: 15px;
   }
 }

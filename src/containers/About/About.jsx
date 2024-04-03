@@ -21,7 +21,7 @@ const About = () => {
           <img src={Cat} alt="cat" />
         </div>
         <div className="app__about_content-info">
-          <h1>About Me</h1>
+          <h1 className="title">About Me</h1>
           <p>
             I am a passionate Full-Stack Developer from Sweden and I am excited
             about creating eye-catching, yet minimalistic websites and
@@ -41,11 +41,12 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div>
-        {" "}
-        <span>My skill set</span>
-      </div>
+
       <div className="app__about-techstack">
+        <div>
+          {" "}
+          <span className="title">My Skill Set</span>
+        </div>
         <ul>
           <li>
             {" "}
@@ -85,9 +86,9 @@ const About = () => {
           </li>
         </ul>
       </div>
-      <div className="app__about_bottom">
+      {/* <div className="app__about_bottom">
         <span>Have a look at my projects!</span>
-      </div>
+      </div> */}
     </div>
   );
 };
