@@ -1,107 +1,90 @@
 .app__contact {
-    display: flex;
-    border-top: 1.5px solid rgb(185, 153, 8);
-    /* background: rgb(2, 1, 26); */
-    /* background-image: linear-gradient(-25deg, rgb(0, 0, 0) 0%, rgb(0, 0, 51) 100%); */
-    background: rgb(0, 0, 15);
-    flex-direction: column;
-    padding: 2rem 0;
+  display: flex;
+  /* background: rgb(2, 1, 26); */
+  /* background-image: linear-gradient(-25deg, rgb(0, 0, 0) 0%, rgb(0, 0, 51) 100%); */
+  background: rgb(207, 207, 207);
+  flex-direction: column;
+  padding: 2rem 0;
+  font-family: "Cormorant Upright";
 }
-.app__contact-content{
-    display: flex;
-    justify-content: center;
-    
-
+.app__contact-content {
+  display: flex;
+  justify-content: center;
 }
-.app__contact-content-call{
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-margin: 0 4rem;
-
-
+.app__contact-content-call {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4rem;
 }
 
-.app__contact-content-call h1{
-    line-height: 100%;
-    font-size: 20px;
+.app__contact-content-call h1 {
+  line-height: 100%;
+  font-size: 20px;
 }
 
-.app__contact-content-email{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 4rem;
+.app__contact-content-email {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4rem;
 }
-.app__contact-content-email h1{
-    line-height: 100%;
-    font-size: 20px;
+.app__contact-content-email h1 {
+  line-height: 100%;
+  font-size: 20px;
 }
-.app__contact-content-linkedin{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 4rem;
-    
+.app__contact-content-linkedin {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4rem;
 }
 .app__contact-content-linkedin a:hover {
-    color: rgb(146, 132, 6);
-    /* border-top: 1px solid rgb(207, 164, 20); */
-    /* border-bottom: 1px solid rgb(207, 164, 20); */
-    text-decoration: solid;
-  text-shadow: 1px 0 10px red;
-    transition: 0.2s ease-in-out;
-  }
-.app__contact-content-linkedin a{
-    text-decoration: none;
-    font-size: 20px;
-    
+  text-decoration: solid;
+  text-shadow: 1px 0 10px rgb(139, 139, 139);
+  transition: 0.2s ease-in-out;
 }
-.app__contact-content-github{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 4rem;
+.app__contact-content-linkedin a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.app__contact-content-github {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4rem;
 }
 .app__contact-content-github a:hover {
-    color: rgb(146, 132, 6);
-    /* border-top: 1px solid rgb(207, 164, 20); */
-    /* border-bottom: 1px solid rgb(207, 164, 20); */
-    text-decoration: solid;
-  text-shadow: 1px 0 10px red;
-    transition: 0.2s ease-in-out;
-  }
-.app__contact-content-github a{
-    text-decoration: none;
-    font-size: 20px;
+  text-decoration: solid;
+  text-shadow: 1px 0 10px rgb(139, 139, 139);
+  transition: 0.2s ease-in-out;
+}
+.app__contact-content-github a {
+  text-decoration: none;
+  font-size: 20px;
 }
 
-@media screen and (max-width: 978px){
-    .app__contact-content{
-        flex-direction: column;
-        
-    }
+@media screen and (max-width: 978px) {
+  .app__contact-content {
+    flex-direction: column;
+  }
 
-   .app__contact-content-call{
+  .app__contact-content-call {
     margin: 0 1rem;
-
-   } 
-   .app__contact-content-email{
+  }
+  .app__contact-content-email {
     margin: 0 1rem;
     padding: 1rem;
-
-   } 
-   .app__contact-content-github{
+  }
+  .app__contact-content-github {
     margin: 0 1rem;
     padding-bottom: 1rem;
-
-   } 
-   .app__contact-content-linkedin{
+  }
+  .app__contact-content-linkedin {
     margin: 0 1rem;
-
-   } 
+  }
 }

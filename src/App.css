@@ -24,6 +24,12 @@
   justify-content: center;
   align-items: center;
 }
+.title {
+  color: rgb(38, 38, 247);
+  font-size: 23px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0 0 2rem 1rem;
+}
 
 .app__wrapper {
   flex: 1;

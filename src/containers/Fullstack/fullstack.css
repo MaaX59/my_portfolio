@@ -12,10 +12,8 @@
   color: rgb(134, 117, 38);
 }
 .app__fullstack-title h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
   margin: 2rem;
   font-size: 45px;
-  font-weight: 300;
 }
 .app__fullstack-content {
   display: flex;

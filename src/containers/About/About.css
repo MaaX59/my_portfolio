@@ -38,18 +38,13 @@
   margin: 2rem 0 0 2rem;
   flex-direction: column;
 }
-.title {
-  color: rgb(38, 38, 247);
-  font-size: 23px;
-  font-family: "Courier New", Courier, monospace;
-  margin: 0 0 2rem 1rem;
-}
+
 .app__about_content-info p {
   font-weight: 100;
   font-size: 17px;
   margin-bottom: 1rem;
   font-family: "Rubik";
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .app__about-techstack {
