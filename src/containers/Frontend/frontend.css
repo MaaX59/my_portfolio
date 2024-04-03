@@ -2,14 +2,9 @@
   display: flex;
   height: 700px;
   align-items: center;
-  /* background-image: linear-gradient(
-    0deg,
-    rgba(4, 0, 15, 1) 30%,
-    rgb(165, 125, 16) 50%,
-    rgba(4, 0, 15, 1) 70%
-  ); */
   flex-direction: column;
   padding-bottom: 3rem;
+  background-color: rgb(240, 241, 255);
 }
 .app__frontend-title {
   display: flex;
@@ -31,9 +26,13 @@
     visibility: hidden;
   }
 } */
-@media screen and (max-width: 978px) {
+@media screen and (max-width: 1350px) {
   .app__frontend {
     height: auto;
+  }
+  .app__frontend-title h1 {
+    margin-top: 4rem;
+    font-size: 35px;
   }
   .app__frontend-content {
     flex-direction: column;

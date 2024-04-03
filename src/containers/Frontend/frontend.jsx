@@ -7,7 +7,7 @@ const Frontend = () => {
   return (
     <div className="app__frontend" id="frontend">
       <div className="app__frontend-title">
-        <h1>Landing Pages</h1>
+        <h1>Frontend</h1>
       </div>
 
       <div className="app__frontend-content">
