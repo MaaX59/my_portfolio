@@ -1,27 +1,57 @@
 import React from "react";
 import "./tech.css";
+import html from "../../images/html.png";
+import css from "../../images/css.png";
+import js from "../../images/js.png";
+import react from "../../images/react.png";
+import node from "../../images/node.png";
+import tailwind from "../../images/tailwind.png";
+import express from "../../images/Expressjs.png";
+import mysql from "../../images/mysql.png";
+import mongodb from "../../images/mongodb.png";
 
 const Tech = () => {
   return (
     <div className="app__tech" id="technologies">
-      <div className="app__tech-title">
-        <h1>Technologies</h1>
-      </div>
       <div className="app__tech-content">
-        <div className="app__tech-content-left">
-          <h2>HTML</h2>
-          <h2>Css3</h2>
-          <h2>Tailwind</h2>
-          <h2>React</h2>
-          <h2>Bootstrap</h2>
-        </div>
-        <div className="app__tech-content-right">
-          <h2>Javascript</h2>
-          <h2>Express.js</h2>
-          <h2>Node.js</h2>
-          <h2>MongoDb</h2>
-          <h2>MySQL</h2>
-        </div>
+        <ul>
+          <li>
+            {" "}
+            <img src={html} alt="html logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={css} alt="css logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={js} alt="js logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={react} alt="react logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={node} alt="node logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={express} alt="express logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={tailwind} alt="tailwind logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={mongodb} alt="mongodb logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={mysql} alt="mysql logo" />{" "}
+          </li>
+        </ul>
       </div>
     </div>
   );

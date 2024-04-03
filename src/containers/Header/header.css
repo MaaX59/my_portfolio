@@ -96,6 +96,22 @@
 .app__header_intro-first-buttons a:visited {
   text-decoration: none;
 }
+.app__header-techstack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: 600px;
+}
+.app__header-techstack ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-around;
+}
+.app__header-techstack img {
+  height: 27px;
+}
 
 @media screen and (max-width: 978px) {
   .app__header {

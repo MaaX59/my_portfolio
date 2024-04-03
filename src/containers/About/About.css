@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 600px;
+  height: 700px;
   width: 100%;
   /* background: rgb(158, 158, 158); */
   /* background-image: linear-gradient(
@@ -52,6 +52,22 @@
   font-weight: 400;
 }
 
+.app__about-techstack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  width: 800px;
+}
+.app__about-techstack ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-around;
+}
+.app__about-techstack img {
+  height: 50px;
+}
 .app__about_bottom {
   height: 50px;
   font-size: 27px;

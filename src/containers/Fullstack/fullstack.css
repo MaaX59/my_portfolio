@@ -1,35 +1,35 @@
-.app__fullstack{
-    display: flex;
-    align-items: center;
-    /* background: rgb(2, 1, 26); */
-    /* background-image: linear-gradient(-25deg, rgb(0, 0, 20) 0%, rgb(0, 0, 30) 100%); */
-    background-image: linear-gradient(0deg, rgba(4,0,15,1) 30%, rgb(165, 125, 16) 50%, rgba(4,0,15,1) 70%) ;
-    
-padding-bottom: 5rem;
+.app__fullstack {
+  display: flex;
+  height: 700px;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  background-color: rgb(255, 255, 255);
+}
+.app__fullstack-title {
+  display: flex;
+  justify-content: center;
+  color: rgb(134, 117, 38);
+}
+.app__fullstack-title h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 2rem;
+  font-size: 45px;
+  font-weight: 300;
+}
+.app__fullstack-content {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1350px) {
+  .app__fullstack {
+    height: auto;
+  }
+  .app__fullstack-title h1 {
+    margin-top: 4rem;
+    font-size: 35px;
+  }
+  .app__fullstack-content {
     flex-direction: column;
-}
-.app__fullstack-title{
-    display: flex;
-    justify-content: center;
-    color: rgb(134, 117, 38);
-    
-}
-.app__fullstack-title h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 2rem;
-    font-size: 45px;
-    font-weight: 300;
-}
-.app__fullstack-content{
-    display: flex;
-    justify-content: center;
-}
-@media screen and (max-width: 978px) {
-    .app__fullstack-content {
-        flex-direction: column;
-    }
-    .app__fullstack{
-        background-image: linear-gradient(0deg, rgba(4,0,15,1) 20%, rgb(165, 125, 16) 30%, rgba(4,0,15,1) 40%, rgba(4,0,15,1) 60%, rgb(165, 125, 16) 70%, rgba(4,0,15,1) 80%) ;
-
-    }
+  }
 }

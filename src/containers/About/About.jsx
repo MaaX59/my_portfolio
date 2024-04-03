@@ -1,6 +1,15 @@
 import React from "react";
 import BackgroundAnimation from "../../components/backgroundAnimation";
 import Cat from "../../images/cat2.png";
+import html from "../../images/html.png";
+import css from "../../images/css.png";
+import js from "../../images/js.png";
+import react from "../../images/react.png";
+import node from "../../images/node2.png";
+import tailwind from "../../images/tailwind.png";
+import express from "../../images/Expressjs.png";
+import mysql from "../../images/mysql.png";
+import mongodb from "../../images/mongodb.png";
 import "./About.css";
 
 const About = () => {
@@ -31,6 +40,50 @@ const About = () => {
             well.{" "}
           </p>
         </div>
+      </div>
+      <div>
+        {" "}
+        <span>My skill set</span>
+      </div>
+      <div className="app__about-techstack">
+        <ul>
+          <li>
+            {" "}
+            <img src={html} alt="html logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={css} alt="css logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={js} alt="js logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={react} alt="react logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={node} alt="node logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={express} alt="express logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={tailwind} alt="tailwind logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={mongodb} alt="mongodb logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <img src={mysql} alt="mysql logo" />{" "}
+          </li>
+        </ul>
       </div>
       <div className="app__about_bottom">
         <span>Have a look at my projects!</span>
