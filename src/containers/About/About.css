@@ -63,7 +63,10 @@
     width: 900px;
   }
 }
-@media screen and (max-width: 978px) {
+@media screen and (max-width: 988px) {
+  .app__about {
+    height: 500px;
+  }
   .app__about_content {
     width: 700px;
     margin: 1rem 0 0 1rem;
@@ -75,12 +78,8 @@
   .app__about_content-animation img {
     height: 200px;
     width: 200px;
-    position: absolute;
   }
-  .app__about_content-animation svg {
-    width: 50%;
-    height: 50%;
-  }
+
   .app__about_content-info {
     height: 100%;
     width: 800px;
@@ -90,24 +89,91 @@
     font-size: 20px;
   }
 }
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 778px) {
   .app__about_content {
-    width: 550px;
-    justify-content: center;
+    width: 600px;
+    margin: 0;
   }
   .app__about_content-animation {
     height: 200px;
     width: 200px;
+    margin-top: 4rem;
+  }
+  .app__about_content-animation img {
+    height: 200px;
+    width: 200px;
   }
   .app__about_content-info {
-    width: 400px;
+    width: 550px;
   }
   .app__about_content-info p {
-    width: 280px;
+    width: 430px;
     font-size: 15px;
   }
 
   .app__about_bottom span {
     font-size: 17px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .app__about_content {
+    width: 550px;
+  }
+  .app__about_content-animation {
+    height: 170px;
+    width: 170px;
+  }
+  .app__about_content-animation img {
+    height: 170px;
+    width: 170px;
+  }
+  .app__about_content-info {
+    width: 450px;
+  }
+  .app__about_content-info p {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 578px) {
+  .app__about_content {
+    width: 450px;
+  }
+  .app__about_content-animation img {
+    height: 125px;
+    width: 125px;
+  }
+  .app__about_content-info {
+    width: 320px;
+  }
+  .app__about_content-info p {
+    width: 260px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .app__about_content {
+    width: 380px;
+  }
+  .app__about_content-animation img {
+    height: 100px;
+    width: 100px;
+  }
+  .app__about_content-info {
+    width: 350px;
+  }
+  .app__about_content-info p {
+    width: 230px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .app__about_content {
+    width: 330px;
+  }
+  .app__about_content-info {
+    width: 300px;
+  }
+  .app__about_content-info p {
+    width: 190px;
+    font-size: 14px;
   }
 }

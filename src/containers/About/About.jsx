@@ -1,6 +1,6 @@
 import React from "react";
 import BackgroundAnimation from "../../components/backgroundAnimation";
-import Cat from "../../images/cat3.png";
+import Cat from "../../images/cat2.png";
 import "./About.css";
 
 const About = () => {
