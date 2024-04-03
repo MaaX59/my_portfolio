@@ -8,7 +8,7 @@ const About = () => {
     <div id="about" className="app__about">
       <div className="app__about_content">
         <div className="app__about_content-animation">
-          <BackgroundAnimation />
+          {/* <BackgroundAnimation /> */}
           <img src={Cat} alt="cat" />
         </div>
         <div className="app__about_content-info">
@@ -33,7 +33,7 @@ const About = () => {
         </div>
       </div>
       <div className="app__about_bottom">
-        <span>Scroll down to see my projects</span>
+        <span>Have a look at my projects!</span>
       </div>
     </div>
   );

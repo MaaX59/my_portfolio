@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 // import BackgroundAnimation from '../../components/backgroundAnimation';
 // import headshot from '../../images/cat3.png'
-import headshot from "../../images/round-headshot.png";
+import headshot from "../../images/round-headshot2.png";
 import bg from "../../images/waves2.jpg";
 
 const Header = () => {
