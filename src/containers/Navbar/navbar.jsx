@@ -18,13 +18,13 @@ const Navbar = () => {
         <div className="app__navbar-links">
           <ul>
             <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
               <a href="#frontend">Frontend</a>
             </li>
             <li>
               <a href="#fullstack">Fullstack</a>
-            </li>
-            <li>
-              <a href="#technologies">Technologies</a>
             </li>
           </ul>
         </div>

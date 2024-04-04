@@ -88,8 +88,8 @@
   border-radius: 8px;
 }
 .app__header-intro-second img {
-  height: 350px;
-  width: 320px;
+  height: 280px;
+
   margin-bottom: 6rem;
   border-radius: 50px;
 }
@@ -98,10 +98,20 @@
 }
 .app__header-techstack {
   display: flex;
+  position: absolute;
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
-  width: 600px;
+  width: 800px;
+  top: 80%;
+}
+.app__header-techstack-title span {
+  color: rgb(0, 0, 0);
+  width: 150px;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  display: flex;
 }
 .app__header-techstack ul {
   display: flex;
@@ -110,7 +120,7 @@
   justify-content: space-around;
 }
 .app__header-techstack img {
-  height: 27px;
+  height: 30px;
 }
 
 @media screen and (max-width: 978px) {
@@ -139,8 +149,8 @@
   }
   .app__header-intro-first {
     z-index: 3;
-    margin-top: 9rem;
-    width: 98vw;
+    margin-top: 7rem;
+    width: 100%;
   }
   .app__header-intro-second img {
     height: 250px;
@@ -154,8 +164,27 @@
 
     border-radius: 0;
   }
+  .app__header-intro-second img {
+    height: 190px;
+    width: 170px;
+  }
+  .app__header-techstack {
+    width: 580px;
+    top: 70%;
+  }
+  .app__header-techstack-title span {
+    width: 120px;
+    font-size: 20px;
+  }
+
+  .app__header-techstack img {
+    height: 25px;
+  }
 }
-@media screen and (max-width: 588px) {
+/* @media screen and (max-width: 588px) {
+  .app__header {
+    height: 900px;
+  }
   .app__header-intro-second img {
     height: 220px;
     width: 190px;
@@ -165,12 +194,12 @@
     font-size: 25px;
   }
   .app__header h2 {
-    font-size: 17px;
+    font-size: 30px;
   }
   .app__header h3 {
-    font-size: 15px;
+    font-size: 19px;
   }
-}
+} */
 @media screen and (max-width: 588px) {
   .app__header-intro h1,
   span {
@@ -181,5 +210,19 @@
   }
   .app__header h3 {
     font-size: 11px;
+  }
+  .app__header-techstack {
+    width: 330px;
+  }
+  .app__header-techstack-title span {
+    width: 80px;
+    font-size: 15px;
+  }
+  .app__header-techstack img {
+    height: 20px;
+  }
+  .app__header-intro-second img {
+    height: 150px;
+    width: 130px;
   }
 }
