@@ -1,6 +1,7 @@
 import React from "react";
 import BackgroundAnimation from "../../components/backgroundAnimation";
 import Cat from "../../images/cat2.png";
+import AboutMe from "../../images/about.jpg";
 // import html from "../../images/html.png";
 // import css from "../../images/css.png";
 // import js from "../../images/js.png";
@@ -18,7 +19,7 @@ const About = () => {
       <div className="app__about_content">
         <div className="app__about_content-animation">
           {/* <BackgroundAnimation /> */}
-          <img src={Cat} alt="cat" />
+          <img src={AboutMe} alt="cat" />
         </div>
         <div className="app__about_content-info">
           <h1 className="title">About Me</h1>
