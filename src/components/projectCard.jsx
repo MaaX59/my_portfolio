@@ -6,8 +6,8 @@ const projectCard = ({ project }) => {
 
   return (
     <div className="app__projectCard">
-      <div className="app__projectCard-constent">
-        <div className="app__projectCard-constent_img">
+      <div className="app__projectCard-content">
+        <div className="app__projectCard-content_img">
           <img src={image} alt="project img" />
         </div>
         <div className="app__projectCard-content_name">
@@ -31,10 +31,10 @@ const projectCard = ({ project }) => {
         </div>
         <div className="app__projectCard-links">
           <div className="app__projectCard-links_site">
-            <a href={link}>Visit</a>
+            <a href={link}>See Live</a>
           </div>
           <div className="app__projectCard-links_code">
-            <a href={code}>Source</a>
+            <a href={code}>Github</a>
           </div>
         </div>
       </div>

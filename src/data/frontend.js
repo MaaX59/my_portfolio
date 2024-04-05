@@ -1,6 +1,6 @@
-import finePic from "../images/finedine.png";
-import maisonFleur from "../images/maisonfleur.png";
-import celestial from "../images/celestial-preview.jpg";
+import finePic from "../images/finedine w phone.jpg";
+import maisonFleur from "../images/fleurs w phone.png";
+import celestial from "../images/celestial display.png";
 const Frontend = [
   {
     name: "FineDine",

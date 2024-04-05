@@ -1,16 +1,5 @@
 import React from "react";
-import BackgroundAnimation from "../../components/backgroundAnimation";
-import Cat from "../../images/cat2.png";
 import AboutMe from "../../images/about.jpg";
-// import html from "../../images/html.png";
-// import css from "../../images/css.png";
-// import js from "../../images/js.png";
-// import react from "../../images/react.png";
-// import node from "../../images/node2.png";
-// import tailwind from "../../images/tailwind.png";
-// import express from "../../images/Expressjs.png";
-// import mysql from "../../images/mysql.png";
-// import mongodb from "../../images/mongodb.png";
 import "./About.css";
 
 const About = () => {

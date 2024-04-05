@@ -1,6 +1,8 @@
 import m2Pic from "../images/coding_generator.png";
-import dealPic from "../images/deal_zone.png";
+import dealPic from "../images/dealzone display.png";
 import ims from "../images/IMS.png";
+import moulin from "../images/moulin display w phone.png";
+
 const Fullstack = [
   {
     name: "DealZone",
@@ -12,12 +14,12 @@ const Fullstack = [
     id: 0,
   },
   {
-    name: "M2 Coding generator",
+    name: "Les Fleurs Du Moulin",
     description: "Quiz app using OpenAi",
-    tags: ["JavaScript", "Express.js", "MongoDb"],
-    image: m2Pic,
-    link: "https://coding-generator.adaptable.app",
-    code: "https://github.com/MaaX59/M2-coding-generator-app",
+    tags: ["Wordpress", "mySql"],
+    image: moulin,
+    link: "https://lesfleursdumoulin.com/",
+    code: "https://lesfleursdumoulin.com/",
     id: 1,
   },
   {
