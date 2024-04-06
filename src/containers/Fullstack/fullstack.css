@@ -19,6 +19,11 @@
   font-size: 45px;
   font-weight: 300;
 }
+.app__fullstack-title h3 {
+  font-family: "Roboto";
+  font-size: 18px;
+  text-align: center;
+}
 .app__fullstack-content {
   display: flex;
   justify-content: center;
@@ -33,5 +38,8 @@
   }
   .app__fullstack-content {
     flex-direction: column;
+  }
+  .app__fullstack-title h3 {
+    font-size: 14px;
   }
 }

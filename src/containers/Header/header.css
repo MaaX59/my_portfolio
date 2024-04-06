@@ -103,7 +103,8 @@
   align-items: center;
   margin-top: 1rem;
   width: 800px;
-  top: 80%;
+  top: 70%;
+  left: 10%;
 }
 .app__header-techstack-title span {
   color: rgb(0, 0, 0);

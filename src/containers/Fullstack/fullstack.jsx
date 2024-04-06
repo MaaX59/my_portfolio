@@ -8,7 +8,11 @@ const Fullstack = () => {
     <div className="app__fullstack" id="fullstack">
       <div className="app__fullstack-title">
         <h1>Fullstack</h1>
-        <h3> Here are some fullstack projects I´ve created </h3>
+        <h3>
+          {" "}
+          Here are some fullstack projects I´ve created - including backend
+          server and login{" "}
+        </h3>
       </div>
       <div className="app__fullstack-content">
         {data.map((project, index) => (

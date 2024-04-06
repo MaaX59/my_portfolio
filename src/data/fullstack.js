@@ -15,7 +15,8 @@ const Fullstack = [
   },
   {
     name: "Les Fleurs Du Moulin",
-    description: "Quiz app using OpenAi",
+    description:
+      "First proffesional work I did for a flower producer in France",
     tags: ["Wordpress", "mySql"],
     image: moulin,
     link: "https://lesfleursdumoulin.com/",

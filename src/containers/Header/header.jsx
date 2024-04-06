@@ -27,10 +27,10 @@ const Header = () => {
           <h2>I´m a Fullstack Web Developer from Sweden</h2>
           <div className="app__header-intro-first-buttons">
             <a href="#about" className="app__header_button">
-              About
+              About me
             </a>
             <a href="#frontend" className="app__header_button2">
-              Projects
+              My Work
             </a>
           </div>
         </div>

@@ -20,6 +20,11 @@
   font-size: 45px;
   font-weight: 300;
 }
+.app__frontend-title h3 {
+  font-family: "Roboto";
+  font-size: 18px;
+  text-align: center;
+}
 .app__frontend-content {
   display: flex;
   justify-content: center;
@@ -35,5 +40,8 @@
   }
   .app__frontend-content {
     flex-direction: column;
+  }
+  .app__frontend-title h3 {
+    font-size: 14px;
   }
 }

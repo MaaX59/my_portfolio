@@ -45,81 +45,65 @@
   font-family: "Rubik";
   font-weight: 300;
 }
-
-.app__about-techstack {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 1rem 0 4rem;
-  width: 900px;
-}
-.app__about-techstack ul {
-  display: flex;
-  list-style: none;
-  width: 100%;
-  margin-top: 1rem;
-  justify-content: space-around;
-}
-.app__about-techstack img {
-  height: 50px;
-}
 .app__about_bottom {
   height: 50px;
   font-size: 27px;
   color: rgb(8, 8, 8);
   margin-bottom: 2rem;
 }
-@media screen and (min-width: 1278px) {
+@media screen and (max-width: 1278px) {
   .app__about_content {
     width: 900px;
+  }
+  .app__about_content-info {
+    width: 500px;
   }
 }
 @media screen and (max-width: 988px) {
   .app__about {
-    height: 500px;
+    justify-content: center;
+    height: 800px;
   }
+
   .app__about_content {
-    width: 700px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 1rem 0 0 1rem;
   }
   .app__about_content-animation {
     height: 300px;
     width: 300px;
   }
-  .app__about_content-animation img {
+  /* .app__about_content-animation img {
     height: 200px;
     width: 200px;
-  }
+  } */
 
   .app__about_content-info {
     height: 100%;
-    width: 800px;
+    width: 500px;
     margin-left: 1rem;
   }
   .app__about_bottom span {
     font-size: 20px;
   }
-  .app__about-techstack {
-    width: 750px;
-  }
-  .app__about-techstack ul img {
-    height: 28px;
-  }
 }
 @media screen and (max-width: 778px) {
+  .app__about {
+    height: 700px;
+  }
   .app__about_content {
-    width: 600px;
     margin: 0;
   }
   .app__about_content-animation {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+
     margin-top: 4rem;
   }
   .app__about_content-animation img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
   }
   .app__about_content-info {
     width: 550px;
@@ -139,16 +123,17 @@
   }
 }
 @media screen and (max-width: 650px) {
+  .app__about {
+    height: 650px;
+  }
   .app__about_content {
     width: 550px;
   }
   .app__about_content-animation {
-    height: 170px;
-    width: 170px;
+    height: 250px;
   }
   .app__about_content-animation img {
-    height: 170px;
-    width: 170px;
+    height: 250px;
   }
   .app__about_content-info {
     width: 450px;
@@ -165,20 +150,19 @@
 }
 @media screen and (max-width: 578px) {
   .app__about {
-    height: 600px;
+    height: 700px;
   }
   .app__about_content {
     width: 450px;
   }
   .app__about_content-animation img {
-    height: 125px;
-    width: 125px;
+    height: 200px;
   }
   .app__about_content-info {
-    width: 320px;
+    width: 400px;
   }
   .app__about_content-info p {
-    width: 260px;
+    width: 400px;
   }
   .app__about-techstack {
     width: 430px;
@@ -188,18 +172,20 @@
   }
 }
 @media screen and (max-width: 430px) {
+  .app__about {
+    height: 650px;
+  }
   .app__about_content {
     width: 380px;
   }
   .app__about_content-animation img {
-    height: 100px;
-    width: 100px;
+    height: 200px;
   }
   .app__about_content-info {
-    width: 350px;
+    width: 375px;
   }
   .app__about_content-info p {
-    width: 230px;
+    width: 355px;
     font-size: 14px;
   }
   .app__about-techstack {
@@ -217,7 +203,7 @@
     width: 300px;
   }
   .app__about_content-info p {
-    width: 190px;
+    width: 290px;
     font-size: 14px;
   }
   .app__about-techstack {
