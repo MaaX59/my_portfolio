@@ -24,6 +24,7 @@
   font-family: "Roboto";
   font-size: 18px;
   text-align: center;
+  width: 95%;
 }
 .app__frontend-content {
   display: flex;
