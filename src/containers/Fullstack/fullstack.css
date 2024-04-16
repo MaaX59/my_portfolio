@@ -27,9 +27,10 @@
 }
 .app__fullstack-content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 950px) {
   .app__fullstack {
     height: auto;
   }
@@ -38,6 +39,7 @@
     font-size: 35px;
   }
   .app__fullstack-content {
+    flex-wrap: nowrap;
     flex-direction: column;
   }
   .app__fullstack-title h3 {

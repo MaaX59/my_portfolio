@@ -1,6 +1,7 @@
 import finePic from "../images/finedine w phone.jpg";
 import maisonFleur from "../images/fleurs w phone.png";
 import celestial from "../images/celestial display.png";
+import car from "../images/Dreamrental.png";
 const Frontend = [
   {
     name: "FineDine",
@@ -21,13 +22,23 @@ const Frontend = [
     id: 1,
   },
   {
+    name: "Dream Rental",
+    description:
+      "For your next trip, don´t choose just any car, choose THE car.",
+    tags: ["Html/Css3", "React"],
+    image: car,
+    link: "https://maax59.github.io/car-rental/",
+    code: "https://github.com/MaaX59/car-rental",
+    id: 2,
+  },
+  {
     name: "Celestial Inn",
     description: "Your home among among the stars",
     tags: ["Html/Css3", "React"],
     image: celestial,
     link: "https://maax59.github.io/celestial/",
     code: "https://github.com/MaaX59/celestial",
-    id: 2,
+    id: 3,
   },
 ];
 export default Frontend;

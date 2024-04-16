@@ -29,9 +29,10 @@
 .app__frontend-content {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 950px) {
   .app__frontend {
     height: auto;
   }
@@ -40,6 +41,7 @@
     font-size: 35px;
   }
   .app__frontend-content {
+    flex-wrap: nowrap;
     flex-direction: column;
   }
   .app__frontend-title h3 {
